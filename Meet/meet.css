@@ -1,0 +1,45 @@
+body {
+    /* background-image: url("../assets/194-1947262_nature-background-full-size.jpg"); */
+    background-color: #DADECB;
+}
+
+main {
+    display: flex;
+    justify-self: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: forestgreen;
+    font-size: large;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #B4C7A2;
+}
+
+.social-link {
+    color: black;
+}
+
+.about-the-team {
+    width: 500px;
+    height: 626px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    background-color: #B4C7A2;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 7px 8px 21px -1px rgba(0, 0, 0, 0.75);
+}
+
+img {
+    box-shadow: 7px 8px 21px -1px rgba(0, 0, 0, 0.75);
+}

@@ -9,13 +9,14 @@ header {
     background-color: #B4C7A2;
 }
 
-.about-link {
+.nav-link {
     text-decoration: none;
     color: black;
 }
 
-.about-link:hover {
+.nav-link:hover {
     color: forestgreen;
+    font-size: large;
 }
 
 main {
