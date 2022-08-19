@@ -9,10 +9,28 @@ header {
     background-color: #B4C7A2;
 }
 
+.about-link {
+    text-decoration: none;
+    color: black;
+}
+
+.about-link:hover {
+    color: forestgreen;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 25px;
+}
+
+li {
+    padding-bottom: 20px;
 }
 
 main div {
