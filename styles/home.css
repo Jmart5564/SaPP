@@ -1,0 +1,42 @@
+body {
+    /* background-image: url("../assets/Vine-Maple-copy.jpg"); */
+    background-color: rgb(53, 141, 19);
+}
+
+.welcome {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: rgb(250, 248, 245);
+    text-align: center;
+    box-shadow: 7px 8px 21px -1px rgba(0,0,0,0.75);
+}
+
+.songbirds-in-peril {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: rgb(250, 248, 245);
+    text-align: center;
+    box-shadow: 7px 8px 21px -1px rgba(0,0,0,0.75);
+}
+
+.project-goals {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: rgb(250, 248, 245);
+    text-align: center;
+    box-shadow: 7px 8px 21px -1px rgba(0,0,0,0.75);
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: rgb(250, 248, 245);
+    text-align: center;
+    box-shadow: 7px 8px 21px -1px rgba(0,0,0,0.75);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    width: 100px;
+}

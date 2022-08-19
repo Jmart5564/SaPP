@@ -12,13 +12,14 @@
         href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap">
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
     <title>Web App</title>
 </head>
 
 <body>
     <header>
         <!-- <img src="/assets/html_css_js.png"> -->
-        <h1>Web App</h1>
+        <h1>Birbs</h1>
     </header>
 
     <main>
@@ -46,7 +47,7 @@
             <button>Get Involved!</button>
         </div>
         <div class="songbirds-in-peril">
-            <h1>Songbirds in peril</h1>
+            <h1>Songbirds in Peril</h1>
             <p>In the Americas, migratory songbirds such as Orange-crowned Warblers 
                 and Bullock’s Orioles, that are not typically considered nectarivorous, 
                 have been observed drinking from nectar feeders or foraging in flowers, 
@@ -80,19 +81,18 @@
             </ol>
         </div>
         <div class="contact">
+            <h1>We would love to hear from you!</h1>
+            <form class="form">
+                <input class="name" placeholder="name" required>
+                <input class="email" placeholder="email" required>
+                <textarea class="message" placeholder="message" required></textarea>
+                <button>Submit</button>
+            </form>
         </div>
     </main>
     
-    <footer>
-        <h1>We would love to hear from you!</h1>
-        <form>
-            <input class="name">
-            <input class="email">
-            <textarea class="message"></textarea>
-            <button>Submit</button>
-        </form>
-        <span>©2022 by Songbirds as Potential Pollinators (SaPP Project)</span>
-        </footer>
+
+        <footer>©2022 by Songbirds as Potential Pollinators (SaPP Project)</footer>
 
     <script type="module" src="app.js"></script>
 </body>
