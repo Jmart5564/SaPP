@@ -51,6 +51,7 @@ main div {
     width: 750px;
     display: flex;
     justify-self: center;
+    margin-right: 0;
 }
 
 .songbirds-in-peril {
@@ -67,6 +68,10 @@ main div {
     text-align: center;
     box-shadow: 7px 8px 21px 0px rgba(0,0,0,0.75);
     width: 850px;
+}
+
+.project-goals h1 {
+    margin-top: 0;
 }
 
 .contact {
